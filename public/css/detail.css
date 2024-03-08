@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #dee2e6;
+    display: flex;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #adb5bd;
+}
+
+.back {
+    font-size: 1.2rem;
+}
+
+.back img {
+    width: 1.2rem;
+    margin-bottom: -0.3rem;
+    margin-right: 0.3rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.detail-container {
+    /* background-color: blue; */
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    /* display: flex; */
+    width: 50%;
+    background-color: #e9ecef;
+    justify-content: space-evenly;
+    margin: 2rem 0 0 0;
+    padding: 3rem 3rem;
+    border-radius: 0.5rem;
+}
+
+.task-box label {
+    display: block;
+}
+
+.task-box .task-value {
+    background-color: white;
+    padding: 0.7rem 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    overflow: auto;
+    margin-bottom: 1.3rem;
+}
+
+/* .task-box input {
+    width: 100%;
+    padding: 0rem 0.3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1.3rem;
+    background-color: white;
+} */
+
+.status {
+    margin: 0 0 1.3rem 0;
+}
+
+.status .pending {
+    color: rgb(255, 32, 32);
+}
+.status .done {
+    color: rgb(0, 132, 9);
+}
+.status .done_at {
+    color: rgb(0, 132, 9);
+}
+
+.description-box label {
+    display: block;
+}
+
+label {
+    margin-bottom: 0.3rem;
+}
+
+.description {
+    /* border: none; */
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 10rem;
+    padding: 0.5rem 0.3rem;
+    background-color: white;
+}

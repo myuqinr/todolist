@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #dee2e6;
+    display: flex;
+    padding: 1.3rem 2rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #adb5bd;
+}
+
+nav .logo .todo,
+nav .logo .list {
+    font-family: "Lobster", cursive !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-size: 1.2rem;
+}
+
+.notif {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.notif .text {
+    padding: 1rem;
+    width: 52%;
+    background-color: #007200;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.notif .text-delete {
+    padding: 1rem;
+    width: 52%;
+    background-color: #9d0208;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.text-delete .undo {
+    /* text-decoration: none; */
+    color: lightblue;
+}
+
+.notif .text-check {
+    padding: 1rem;
+    width: 52%;
+    background-color: #0077b6;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.notif .text-undo {
+    padding: 1rem;
+    width: 52%;
+    background-color: #f7b801;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    width: 1.5rem;
+    margin-bottom: -0.4rem;
+    margin-right: 0.5rem;
+}
+
+.logo .todo {
+    color: #212529;
+}
+
+.logo .list {
+    color: #343a40;
+}
+
+.profile img {
+    width: 1rem;
+    margin-bottom: -0.3rem;
+    margin-right: 0.5rem;
+}
+
+.profile a {
+    text-decoration: none;
+    color: black;
+}
+
+.create {
+    display: flex;
+    /* background-color: blue; */
+    padding: 1rem;
+    justify-content: right;
+    margin: 3rem;
+}
+
+.add-todo {
+    padding: 0.8rem 1rem;
+    background-color: #134074;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.add-todo:hover {
+    background-color: #002f64;
+    color: white;
+    transition: 0.3s;
+}
+
+.add-todo img {
+    width: 1rem;
+    margin-bottom: -0.3rem;
+    margin-left: 0.5rem;
+}
+
+.center img {
+    width: 1rem;
+    margin-bottom: -0.3rem;
+    /* margin-left: 0.5rem; */
+}
+
+.table {
+    background-color: #e9ecef;
+    padding: 0.5rem 0.7rem;
+    margin: 0 1rem 3rem 1rem;
+    border-radius: 0.5rem;
+    /* height: 20rem; */
+}
+
+table {
+    width: 94%;
+    margin: 0 auto;
+}
+
+table th {
+    font-weight: bold;
+    padding: 0.3rem;
+    background-color: #ced4da;
+    /* border-color: white; */
+}
+
+table .center {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.task-description {
+    padding: 0.3rem;
+}
+
+.pending {
+    color: rgb(228, 65, 0);
+}
+
+.done {
+    color: green;
+}
+
+.todo-blank {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin-top: 1rem;
+}
+
+.todo-blank .content {
+    /* background-color: blue; */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.todo-blank img {
+    width: 15rem;
+}
+
+.new-todo {
+    background-color: #aec3b0;
+}
